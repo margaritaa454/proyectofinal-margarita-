@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* configuracion inicial */
+
+/* crear constantes de diseño */
+
+:root {
+    /* colores */
+    --colorEncabezado: #f7d8f9;
+    --colorPie: #bcfdda;
+    --colorEnlace: #000;
+    --colorEnlacesobre: #ebacf7;
+
+    /* fuentes */
+    --textos: 'Roboto', sans-serif;
+    --tamTitulos: 4.3rem;
+}
+
+
+/* El simbolo (*), es el selector universal en css */
+* {
+    box-sizing: border-box;
+
+}
+
+/* Para escvribir uns clase que esta en el html, se escribe con punto .home-wrapper */
+
+.home-wrapper {
+    /* imagen de fondo */
+    background: url('../images/fondooo.jpg');
+    background-size: cover;
+
+}
+
+/* Selector de encabezado header */
+header {
+    width: 100%;
+    background-color: var(--colorEncabezado);
+    position: fixed;
+    /* espaciado */
+    padding: 10px 0;
+
+}
+
+/* cambiar tamaño a el logo */
+header img {
+    width: 200px;
+
+}
+
+/* organizar el menu */
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: var(--colorEnlace);
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+/* crear los estilos de la seccion home */
+/* los id en css se escriban con el simbolo de # */
+#home {
+    /* texto centrado */
+    text-align: center;
+    /* espaciados superior e inferior */
+    padding: 250px 0 250px;
+
+}
+
+/* las clases se representan por un . */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+/* utilizar el selector de la etiqueta section */
+section {
+    /* espaciado superior */
+    padding-top: 80px;
+}
+
+/*en la seccion de home, aplicar estilos al titulo novedades  */
+#home h2 {
+    /* fuente */
+    font-family: var(--textos);
+    /* color de fuente */
+    color: rgb(0, 0, 0);
+    /* tamaño de fuente */
+    font-size: var(--tamTitulos);
+}
+
+/* APLICAR ESTILOS AL TEXTO EN LA SECION HOME */
+#home p{
+    font-family: var(--textos);
+    font-size: 1.8rem;
+    color: #000;
+}
+
+/* seccion cine */
+#cine 
+#teatro,
+#musica,.box{
+
+    display: inline-block;
+    /* se divide el 100% del anchopor 3 */
+    width: 33%;
+    padding: 8px;
+}
+#cine,
+#teatro,
+#musica, .box img{
+   width: 100%;    
+}
+
+/* para los titulos en las secciones */
+#teatro, #musica, #cine h2{
+    text-align: center !important;
+    font-family: var(--textos);
+    font-size: 1.5rem;
+    font-weight: bold !important;
+    margin-top: 90px;
+}
+#teatro, #musica, #cine p{
+    text-align: justify ;
+    font-family: var(--textos);
+    font-size: 16px;
+   
+}
+/* contacto */
+#contacto{
+    margin: 0 auto;
+    width: 100;
+    text-align: center;
+    background-color: #fae1ff;
+}
+#contacto input,textarea{
+    width: 600px;
+    border-radius: 5px;
+    padding:10px 20px; 
+}
+/* pie de pagina - footer */
+footer{
+    width: 100%;
+    background-color: var(--colorPie);
+    color: #fed4ff;
+    padding: 20px 0;
+    text-align:center;
+}
