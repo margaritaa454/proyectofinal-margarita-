@@ -41,11 +41,46 @@ body{
     color: rgb(0, 0, 0);
 }
 
-#vasijas .titulo{
+#novedades .titulo{
     width: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
+#vasijas .titulo{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#vasijas .hola{
+width: 50%;
+height: 300px;
+
+}
+#accesorios .titulo{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#accesorios .ola{
+width: 50%;
+height: 300px;
+}
+#ceramica .titulo{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#ceramica .oli{
+width: 80%;
+height: 300px;
+}
+
+
+
 /* videos*/
 #videos{
     background-color: #FAEAFF !important;
