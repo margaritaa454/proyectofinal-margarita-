@@ -78,6 +78,17 @@ height: 300px;
 width: 80%;
 height: 300px;
 }
+#virgenes .titulo{
+    width: 80%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#virgenes .oli{
+width: 50%;
+height: 20px;
+}
+
 
 
 
