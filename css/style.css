@@ -1,6 +1,6 @@
 #logo{
     width: 200px;
-    height: 200px;
+    height: 150px;
 }
 
 #menu{
@@ -41,6 +41,11 @@ body{
     color: rgb(0, 0, 0);
 }
 
+#vasijas .titulo{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 /* videos*/
 #videos{
     background-color: #FAEAFF !important;
@@ -248,4 +253,10 @@ footer{
     text-align: center;
     margin-top: 225px;
     
+}
+
+.titulo{
+    color: #000;
+    font-weight: 500;
+    font-size: 50px;
 }
