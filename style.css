@@ -1,6 +1,6 @@
 #logo{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
 }
 
 #menu{
@@ -8,7 +8,7 @@
 }
 
 .alto-img{
-    height: 800px !important;
+    height: 650px !important;
 }
 
 .nav-link{
@@ -41,54 +41,21 @@ body{
     color: rgb(0, 0, 0);
 }
 
-#novedades .titulo{
-    width: 100%;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
 #vasijas .titulo{
     width: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
-    
 }
-#vasijas .hola{
-width: 50%;
-height: 300px;
-
-}
-#accesorios .titulo{
-    width: 100%;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-}
-#accesorios .ola{
-width: 50%;
-height: 300px;
-}
-#ceramica .titulo{
-    width: 100%;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-}
-#ceramica .oli{
-width: 50%;
-height: 360px;
-}
-#virgenes .titulo{
-    width: 80%;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-}
-#virgenes .olii{
-width: 50%;
-height: 370px;
+/* videos*/
+#videos{
+    background-color: #FAEAFF !important;
 }
 
+#videos .titulo{
+    text-align: center;
+    width: 100%;
+    color: rgb(190, 190, 190);
+}
 /* footer */
 #page-footer{
     background-color: #FAEAFF !important ; 
